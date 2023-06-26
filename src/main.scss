@@ -1,0 +1,40 @@
+$primary: maroon;
+$btn-padding-x: 3rem;
+$btn-font-size: 16px;
+$font-size-root: 12px;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.heading h1 {
+  font-family: "Concert One", cursive;
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+
+.heading h2, h3, h4, h5{
+  font-family: "Concert One", cursive;
+  letter-spacing: 1px;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-weight: bold;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+blockquote:after {
+  content: "\201D";
+  font-weight: bold;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
